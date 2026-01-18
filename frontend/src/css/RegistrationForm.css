@@ -1,0 +1,69 @@
+/* Page Center Alignment */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f4f9;
+  }
+  
+  /* Main Card */
+  .register-card {
+    width: 900px;
+    max-width: 95%;
+    background: #ffffff;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Image */
+  .card-image {
+    width: 50%;
+    background: linear-gradient(135deg,  #bcc9de,  #0d2b5b);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-image img {
+    width: 80%;
+    max-width: 350px;
+  }
+  
+  /* Right Form */
+  .card-form {
+    width: 50%;
+    padding: 40px;
+  }
+  
+  .card-form h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #1259cb;
+  }
+  .card-form button{
+    background-color: #3a7ad4;
+  }
+  /* Responsive */
+  @media (max-width: 768px) {
+    .register-card {
+      flex-direction: column;
+    }
+  
+    .card-image,
+    .card-form {
+      width: 100%;
+    }
+  
+    .card-image {
+      padding: 20px;
+    }
+  
+    .card-form {
+      padding: 25px;
+    }
+  }
+  
