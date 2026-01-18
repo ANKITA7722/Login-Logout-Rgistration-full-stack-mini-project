@@ -18,6 +18,7 @@ const App=()=>{
              
             </Route>
           </Routes>
+          
         
          <Routes>
             <Route path="dashboard" element={<DashBoard/>}>
